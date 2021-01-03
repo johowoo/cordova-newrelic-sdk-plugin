@@ -4,9 +4,7 @@ a cordova plugin for providing direct access to native newrelic SDK APIs
 
 # Installation
 ```bash
-cordova plugin add <path to this project>
-eg: 
-cordova plugin add ~/Documents/newrelic/cordova-newrelic-sdk-plugin/
+cordova plugin add cordova-newrelic-sdk-plugin
 ```
 
 ### Prerequisites
