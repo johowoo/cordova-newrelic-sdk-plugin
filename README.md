@@ -43,7 +43,6 @@ if(window.NewRelicSDK) {
 ### Available APIs
 
 #### IOS (NewRelicSDK.*)
-1.
 ```javascript 
  noticeNetworkRequestForIOS(url, httpMethod, timeElapsedInMilliseconds, headers, httpStatusCode, bytesSent, bytesReceived, responseData)
  noticeNetworkRequestFailureForIOS(url, httpMethod, timeElapsedInMilliseconds, httpStatusCode)
@@ -53,7 +52,6 @@ if(window.NewRelicSDK) {
  incrementAttributeForIOS(key, value)
  recordCustomEventForIOS(eventType, eventName, eventAttributes)
 ```
-2. 
 
 #### Android (NewRelicSDK.*)
 ```javascript 
