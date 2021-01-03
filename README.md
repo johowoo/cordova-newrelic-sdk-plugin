@@ -3,7 +3,9 @@
 Provides javascript interface in order to call New Relic SDK on both IOS & Android
 
 # Installation
-cordova plugin add <xxx>
+```bash
+cordova plugin add <path to this project>
+```
 
 ### Prerequisites
 1. [New Relic plugin for Cordova](https://github.com/newrelic/newrelic-cordova-plugin.git)
