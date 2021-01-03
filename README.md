@@ -9,13 +9,12 @@ cordova plugin add cordova-newrelic-sdk-plugin
 
 ### Prerequisites
 1. [New Relic plugin for Cordova](https://github.com/newrelic/newrelic-cordova-plugin.git)
-which is the official plugin from NewRelic. It does not work out of box and have no APIS that can called directly.
-So When I was doing the configuration for a Cordova App. I built this plugin so that we can call those APIs directly.
+(which is the official plugin from NewRelic. It does not work out-of-box and has no APIs that can be called directly.)
 
 2. There is another way of logging HTTP requests inside a cordova/ionic app. 
-which is add the JS configuration code to 'index.html' and check the results within 'browser' instead of mobile;
+which is adding the JS configuration code to the 'index.html' file and checking the results within 'browser' instead of "mobile";
 
-3. My advice is using both the browser & mobile solution together and use NewRelic analysts to combine them together by using 'setCustomAttributes';
+3. My advice is using both the browser & mobile solution and combine them together by using 'setCustomAttributes';
 
 ### Usages
 
