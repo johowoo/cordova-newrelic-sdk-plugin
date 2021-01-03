@@ -1,4 +1,4 @@
-# cordova plugin for newrelic native SDK
+# cordova-newrelic-sdk-plugin
 
 a cordova plugin for providing direct access to native newrelic SDK APIs
 
