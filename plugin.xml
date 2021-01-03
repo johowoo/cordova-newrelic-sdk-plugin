@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-newrelic-sdk-plugin" version="1.0.0">
+    <name>NewRelicSDK</name>
+    <js-module name="NewRelicSDK" src="www/NewRelicSDK.js">
+        <clobbers target="NewRelicSDK" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="NewRelicSDK">
+                <param name="ios-package" value="NewRelicSDK" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/NewRelicSDK.m" />
+    </platform>
+    <platform name="android">
+        <framework src="com.fasterxml.jackson.core:jackson-databind:2.11.0" />
+        <config-file parent="/*" target="config.xml">
+            <feature name="NewRelicSDK">
+                <param name="android-package" value="cordova.plugins.NewRelicSDK"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/NewRelicSDK.java" target-dir="src/cordova/plugins" />
+    </platform>
+</plugin>

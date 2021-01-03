@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Joe Wu"
+  },
+  "cordova": {
+    "id": "cordova-newrelic-sdk-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "cordova plugin for New Relic",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "newrelic"
+  ],
+  "name": "cordova-newrelic-sdk-plugin",
+  "version": "1.0.0"
+}
