@@ -1,6 +1,6 @@
 # cordova plugin for newrelic native SDK
 
-Provides javascript interface in order to call New Relic SDK on both IOS & Android
+a cordova plugin for providing direct access to native newrelic SDK APIs
 
 # Installation
 ```bash
